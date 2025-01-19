@@ -58,10 +58,11 @@ ul li a:hover {
 
 /* Image de profil */
 .profile-image {
-  max-width: 150px;
-  border-radius: 50%;
+  max-width: 120px; /* Réduit la taille de l'image */
+  height: auto; /* Conserve le ratio */
+  border-radius: 50%; /* Rond */
   margin-right: 20px;
-  float: left;
+  float: left; /* Texte à droite */
 }
 
 /* Conteneur About */
